@@ -250,9 +250,9 @@ elif st.session_state.step == 3:
 
 
     if st.button('Create Roll Plan'):
-        population_size = 200
-        num_generations = 500
-        mutation_rate = 0.05
+        population_size = 50
+        num_generations = 100
+        mutation_rate = 0.1
         
         def initialize_population_1(max_attempts=1000):
             population = []
